@@ -20,7 +20,7 @@ h2, h1, p{
 .cardwrapper{
     background-color: white;
     width: 23.4vw;
-    height: 80vh;
+    height: 78vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -32,8 +32,8 @@ h2, h1, p{
 }
 
 .mainimage{
-    width: 300px;
-    height: 9em;
+    width: 23.4vw;
+    height: 13em;
     background-image: url(images/illustration-hero.svg);
     background-size: 300px;
     background-repeat: no-repeat;
@@ -42,14 +42,14 @@ h2, h1, p{
 
 h1{
     color: hsl(223, 47%, 23%) ;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     margin-top: 2rem;
 }
 
 #caption{
     color: hsl(224, 23%, 55%) ;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
     margin: 1rem 2.4rem;
     line-height: 1.1rem;
@@ -75,6 +75,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: start;
+    font-size: large;
     padding: 1rem 2.2rem 1rem 0.5rem;
 }
 
