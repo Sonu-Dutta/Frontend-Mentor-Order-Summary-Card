@@ -19,7 +19,8 @@ h2, h1, p{
 
 .cardwrapper{
     background-color: white;
-    width: 300px;
+    width: 23.4vw;
+    height: 80vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -148,4 +149,10 @@ h2{
 
 .attribution a:hover{
     color:#766CF1;
+}
+@media(min-width:375px){
+    main div.cardwrapper{
+        width:80vw;
+        height: 70vh;
+    }
 }
