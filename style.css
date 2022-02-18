@@ -20,14 +20,13 @@ main{
 }
 main div.cardwrapper{
     background-color: white;
-    width: 27rem;
+    width: 27.7rem;
     border-radius: 1rem ;
-    margin: 10%;
 }
 .mainimage {
     height: 14rem;
     background: url(./images/illustration-hero.svg) no-repeat;
-    width: 27rem;
+    width: 27.7rem;
     border-radius: 1rem 1rem 0 0;
 
 }
@@ -125,4 +124,15 @@ footer .attribution a{
 
 footer .attribution a:hover{
     color:#766CF1;
+}
+
+@media(max-width:374px){
+    main div.cardwrapper{
+        width: 22rem;
+        margin: 3rem;
+    }
+    .mainimage {
+        height: 12rem;
+        width: 22rem; 
+    }
 }
