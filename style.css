@@ -22,6 +22,7 @@ main div.cardwrapper{
     background-color: white;
     width: 27.7rem;
     border-radius: 1rem ;
+    margin: 3rem auto;
 }
 .mainimage {
     height: 14rem;
@@ -128,11 +129,16 @@ footer .attribution a:hover{
 
 @media(max-width:374px){
     main div.cardwrapper{
-        width: 20rem;
+        width: 21rem;
         margin: 3rem auto;
     }
     .mainimage {
         height: 10rem;
-        width: 20rem; 
+        width: 21rem; 
+    }
+    #change{
+        position: relative;
+        right: 4.5rem;
+
     }
 }
