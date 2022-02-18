@@ -22,6 +22,7 @@ main div.cardwrapper{
     background-color: white;
     width: 27.7rem;
     border-radius: 1rem ;
+    margin: 10%;
 }
 .mainimage {
     height: 14rem;
