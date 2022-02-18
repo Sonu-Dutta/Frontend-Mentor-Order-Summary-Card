@@ -129,7 +129,7 @@ footer .attribution a:hover{
 @media(max-width:374px){
     main div.cardwrapper{
         width: 22rem;
-        margin: 3rem;
+        margin: 3rem auto;
     }
     .mainimage {
         height: 12rem;
